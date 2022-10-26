@@ -2,7 +2,7 @@
 
 namespace App\Console;
 
-use Artcrud\Commands\CreateTable;
+use Artcrud_mongodb\Commands\CreateTable;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 

@@ -1,14 +1,15 @@
-Админка с панелью для laravel 9
+Админка с панелью для laravel 9 ( Mongodb )
+Версия с Mysql тут https://github.com/noistudio/art20
 
 Админка включает в себя собственные пакеты:
 
-https://github.com/noistudio/artcrud
+https://github.com/noistudio/artcrud-mongodb
 
-https://github.com/noistudio/admin-blocks
+https://github.com/noistudio/admin-blocks-mongodb
 
 https://github.com/noistudio/laravel-trumbowyg
 
-https://github.com/noistudio/artadmin
+https://github.com/noistudio/artadmin-mongodb
 
 
 
@@ -18,10 +19,8 @@ https://github.com/UniSharp/laravel-filemanager
 https://github.com/barryvdh/laravel-translation-manager
 
 1.  composer create-project
-2. php artisan vendor:publish --tag=lfm_public --tag=admin_blocks --tag=artcrud --tag=laravel-trumbowyg --tag=artadmin
-
-3.  php artisan migrate
-4.  php artisan artadmin:adduser {email} {password}
+2. php artisan vendor:publish --tag=lfm_public --tag=admin_blocks --tag=artcrud_mg --tag=laravel-trumbowyg --tag=artadmin
+3.  php artisan artadmin:adduser {email} {password}
 
 
 Данный пакет является реинкарнацией идей https://github.com/noistudio/art_laravel

@@ -6,18 +6,19 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "barryvdh/laravel-translation-manager": "^0.6.3",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "jenssegers/mongodb": "^3.9",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
-        "noistudio/admin-blocks": "dev-master",
-        "noistudio/artadmin": "dev-master",
-        "noistudio/artcrud": "dev-master",
-        "noistudio/laravel-trumbowyg": "dev-master",
-        "unisharp/laravel-filemanager": "^2.2",
         "mcamara/laravel-localization": "^1.6",
-        "barryvdh/laravel-translation-manager": "^0.6.3"
+        "noistudio/admin-blocks-mongodb": "dev-master",
+        "noistudio/artadmin-mongodb": "dev-master",
+        "noistudio/artcrud-mongodb": "dev-master",
+        "noistudio/laravel-trumbowyg": "dev-master",
+        "unisharp/laravel-filemanager": "^2.2"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",
