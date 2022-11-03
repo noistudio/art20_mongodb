@@ -19,7 +19,7 @@ https://github.com/UniSharp/laravel-filemanager
 https://github.com/barryvdh/laravel-translation-manager
 
 1.  composer create-project
-2. php artisan vendor:publish --tag=lfm_public --tag=admin_blocks --tag=artcrud_mg --tag=laravel-trumbowyg --tag=artadmin_mongodb
+2. php artisan vendor:publish --tag=lfm_public --tag=admin_blocks --tag=artcrud_mg --tag=laravel-trumbowyg --tag=artadmin
 3.  php artisan artadmin:adduser {email} {password}
 
 
